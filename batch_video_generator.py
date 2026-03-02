@@ -80,7 +80,7 @@ def generate_video(topic: str, output_dir: Path) -> bool:
 
 def main():
     """Generate all videos in batch."""
-    output_dir = Path(r"C:\Users\david\Videos")
+    output_dir = Path(r"C:\Users\USERNAME\Videos")
     
     logger.info("=" * 80)
     logger.info("BATCH VIDEO GENERATOR - Starting")

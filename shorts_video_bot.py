@@ -1556,8 +1556,8 @@ def main():
     
     # Generate output filename from topic
     if args.output is None:
-        # Default to C:\Users\david\Videos folder
-        videos_folder = Path(r"C:\Users\david\Videos")
+        # Default to C:\Users\USERNAME\Videos folder
+        videos_folder = Path(r"C:\Users\USERNAME\Videos")
         videos_folder.mkdir(parents=True, exist_ok=True)
         
         safe_name = re.sub(r'[^\w\s-]', '', args.topic)[:40].strip().replace(' ', '_').lower()

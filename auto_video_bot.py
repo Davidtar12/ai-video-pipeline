@@ -91,17 +91,17 @@ VISION_MAX_WORKERS = 3  # limit parallel vision checks
 BLACK_FRAME_THRESHOLD = 0.1  # detect black frames lasting > 0.1 seconds
 
 # Watermark/Logo settings (for branding without killing reach)
-WATERMARK_LOGO_PATH = r"C:\Users\david\Downloads\YouTube\FinTara\Logo\ChatGPT_Image_Dec_6__2025__05_22_09_PM-removebg-preview.png"
+WATERMARK_LOGO_PATH = r"C:\Users\USERNAME\Downloads\YouTube\FinTara\Logo\ChatGPT_Image_Dec_6__2025__05_22_09_PM-removebg-preview.png"
 WATERMARK_SIZE = 120  # pixels (diameter for circular logo)
 WATERMARK_OPACITY = 0.6  # 60% opacity (50-70% recommended for subtlety)
 WATERMARK_POSITION = "top-right-safe"  # top-right-safe = 15% from top (avoids search bar UI)
 WATERMARK_PADDING = 30  # pixels from edge (safe zone)
 
 # Company Logos Directory (for automatic logo usage when companies mentioned)
-COMPANY_LOGOS_DIR = Path(r"C:\Users\david\Downloads\YouTube\Companies")
+COMPANY_LOGOS_DIR = Path(r"C:\Users\USERNAME\Downloads\YouTube\Companies")
 
 # Video cache settings (prevent repetition between videos)
-VIDEO_CACHE_FILE = Path(r"C:\Users\david\Downloads\YouTube\.video_cache.json")
+VIDEO_CACHE_FILE = Path(r"C:\Users\USERNAME\Downloads\YouTube\.video_cache.json")
 VIDEO_COOLDOWN_DAYS = 7  # Videos can be reused after 7 days
 
 MEDIA_CACHE: dict = {}
